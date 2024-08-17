@@ -6,7 +6,7 @@
                 @if ($getRecord()->lastApproval)
                     {{ $getRecord()->lastApproval->approver_name }}
                 @else
-                    {{ $getRecord()->createdBy()->name }}
+                    {{ $getRecord()->createdBy()?->name??'No Approval Record' }}
                 @endif
             </small>
         </p>
