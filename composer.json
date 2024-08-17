@@ -1,10 +1,11 @@
 {
-    "name": "eightynine/filament-approvals",
+    "name": "nisimpo/filament-approvals",
     "description": "Manage approval processes in your filament application",
     "keywords": [
         "eightynine",
         "laravel",
-        "filament-approvals"
+        "filament-approvals",
+        "nisimpo"
     ],
     "homepage": "https://github.com/eightynine/filament-approvals",
     "support": {
@@ -14,8 +15,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Eighty Nine",
-            "email": "eighty9nine@gmail.com",
+            "name": "Shabani Nzogo",
+            "email": "nzogo05@gmail.com",
             "role": "Developer"
         }
     ],
