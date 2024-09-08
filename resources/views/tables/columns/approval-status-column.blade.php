@@ -2,7 +2,12 @@
     @if($getRecord()->approvalStatus)
         <p class="px-3">
             <small>
-                {{ $getRecord()->approvalStatus->status }} {{ __('filament-approvals::approvals.status_column.approval_by_prefix') }}
+                @if($getRecord()->approvalStatus->status === 'Rejected')
+                    Your Application has been declined, please contact Navanga admin for more details
+                @else
+                    {{ $getRecord()->approvalStatus->status }}
+                @endif
+                {{ __('filament-approvals::approvals.status_column.approval_by_prefix') }}
                 @if ($getRecord()->lastApproval)
                     {{ $getRecord()->lastApproval->approver_name }}
                 @else

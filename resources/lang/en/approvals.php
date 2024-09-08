@@ -4,7 +4,7 @@
 return [
     'status_column' => [
         'approval_by_prefix' => 'By',
-        'approval_complete' => 'Complete',
+        'approval_complete' => 'Approved',
         'approval_incomplete' => 'Incomplete',
         'approval_in_process' => 'In Process',
         'approval_status_does_not_exist' => 'No Status Exists',
@@ -31,7 +31,7 @@ return [
         'approval_history' => 'Approval History',
         'history' => [
             'Approved' => 'Approved',
-            'Rejected' => 'Rejected',
+            'Rejected' => 'Declined',
             'Discarded' => 'Discarded',
             'Submitted' => 'Submitted',
         ]
